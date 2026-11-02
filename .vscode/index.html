@@ -1,0 +1,278 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Swiggy - Order Food Online</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">S</span>
+            <span class="logo-text">Swiggy</span>
+        </div>
+
+        <div class="location">
+            <span class="location-icon">📍</span>
+            <div>
+                <h4>Other</h4>
+                <p>Meerut, Uttar Pradesh</p>
+            </div>
+            <span class="arrow">▼</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#offers">Offers</a>
+            <a href="#help">Help</a>
+            <a href="#signin">Sign In</a>
+            <a href="#cart">🛒 Cart</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Order food online</h1>
+
+            <p>
+                Discover the best food and restaurants near you.
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Search for restaurants and food"
+                >
+                <button type="button">Search</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80"
+                alt="Delicious food"
+            >
+        </div>
+
+    </section>
+
+
+    <!-- Food Categories -->
+    <section class="container" id="food">
+
+        <h2>What's on your mind?</h2>
+
+        <div class="food-categories">
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=300&q=80" alt="Pizza">
+                <h3>Pizza</h3>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&q=80" alt="Burger">
+                <h3>Burger</h3>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" alt="Noodles">
+                <h3>Noodles</h3>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=300&q=80" alt="Biryani">
+                <h3>Biryani</h3>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=300&q=80" alt="Samosa">
+                <h3>Snacks</h3>
+            </div>
+
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=300&q=80" alt="Dessert">
+                <h3>Desserts</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Restaurant Section -->
+    <section class="container restaurants" id="restaurants">
+
+        <h2>Top restaurant chains in your city</h2>
+
+        <div class="restaurant-grid">
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80"
+                    alt="Pizza restaurant"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Pizza Paradise</h3>
+                    <p class="rating">★ 4.5 · 25-30 mins</p>
+                    <p>Pizza, Italian, Fast Food</p>
+                    <p class="price">₹250 for two</p>
+                </div>
+
+            </div>
+
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80"
+                    alt="Burger restaurant"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Burger House</h3>
+                    <p class="rating">★ 4.3 · 20-25 mins</p>
+                    <p>Burgers, American, Snacks</p>
+                    <p class="price">₹200 for two</p>
+                </div>
+
+            </div>
+
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1563379091339-03246963d51a?auto=format&fit=crop&w=500&q=80"
+                    alt="Biryani restaurant"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Biryani Express</h3>
+                    <p class="rating">★ 4.6 · 30-35 mins</p>
+                    <p>Biryani, North Indian</p>
+                    <p class="price">₹300 for two</p>
+                </div>
+
+            </div>
+
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=500&q=80"
+                    alt="Fast food"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Food Junction</h3>
+                    <p class="rating">★ 4.2 · 25-30 mins</p>
+                    <p>Fast Food, Sandwiches</p>
+                    <p class="price">₹180 for two</p>
+                </div>
+
+            </div>
+
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=500&q=80"
+                    alt="Grilled food"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Spice Kitchen</h3>
+                    <p class="rating">★ 4.4 · 30-40 mins</p>
+                    <p>Indian, Tandoori, Chinese</p>
+                    <p class="price">₹350 for two</p>
+                </div>
+
+            </div>
+
+
+            <div class="restaurant-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=80"
+                    alt="Dessert shop"
+                >
+
+                <div class="restaurant-info">
+                    <h3>Sweet Treats</h3>
+                    <p class="rating">★ 4.7 · 15-20 mins</p>
+                    <p>Cakes, Desserts, Ice Cream</p>
+                    <p class="price">₹150 for two</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Offers Section -->
+    <section class="offer-section" id="offers">
+
+        <h2>Delicious food, exciting offers!</h2>
+
+        <p>
+            Order your favourite food and enjoy every bite.
+        </p>
+
+        <a href="#restaurants" class="offer-button">
+            Explore Restaurants
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="help">
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                <h2>Swiggy</h2>
+                <p>© 2026 Swiggy-style website</p>
+            </div>
+
+            <div>
+                <h3>Company</h3>
+                <a href="#food">About Us</a>
+                <a href="#restaurants">Restaurants</a>
+                <a href="#offers">Offers</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <a href="#help">Help & Support</a>
+                <a href="#help">Partner With Us</a>
+                <a href="#help">Contact Us</a>
+            </div>
+
+            <div>
+                <h3>We Deliver To</h3>
+                <a href="#food">Meerut</a>
+                <a href="#food">Delhi</a>
+                <a href="#food">Noida</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
